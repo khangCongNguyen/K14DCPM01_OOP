@@ -7,16 +7,15 @@ public class Customer {
     Scanner input =new Scanner(System.in);
 
     //data customer'
-     String cusName;
-      String address;
+     String Address;
+     String Phone;
 
     //function get customer info
-    String getCusInfo(){
-       System.out.print("hay nhap ten khach hang :");
-       cusName = input.nextLine();
-       System.out.print("hay nhap dia chia khach hang :");
-       address = input.nextLine();
-        return cusName+address;
+    public String getAddress() {
+        return Address;
+    }
+    public String getPhone() {
+        return Phone;
     }
  
     
